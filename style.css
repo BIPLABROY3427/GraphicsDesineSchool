@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-image: url(image/group1-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-extra {
+    background-color: #2b3c53;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.main-paragraph p {
+    text-align: center;
+}
+
+.main-extra .logo img {
+    width: 146px;
+    height: 46px;
+    margin: 10px
+}
+
+.navimage img {
+    margin: 0 20px;
+}
+
+.main1-1 {
+    height: 100vh;
+}
+
+.main1-1 .main-paragraph p:nth-child(1) {
+    font-size: 60px;
+    color: #2b3c53;
+}
+
+.main1-1 .main-paragraph p:nth-child(2) {
+    font-size: 20px;
+    color: #2b3c53;
+}
+
+.main1-1 .main-paragraph p:nth-child(3) {
+    font-size: 18px;
+}
+
+.signupbutton {
+    border-radius: 30px;
+    background-color: #2b3c53;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.main2-2 p:nth-child(1) {
+    font-size: 51px;
+    font-family: 'Righteous', cursive;
+}
+
+.main2-2 p:nth-child(2) {
+    font-size: 20px;
+}
+
+.main2 {
+    /* background-color: #5e9a62; */
+    background-image: url(image/banner2-Background.png);
+    background-repeat: no-repeat;
+    height: 965px;
+}
+
+.main2-2 {
+    margin-left: 50px;
+}
+
+.main-2-btn {
+    width: fit-content;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.main2-2 p {
+    text-align: start;
+    color: white;
+}
+
+.main-2-btn p {
+    color: #5e9a62;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.main2-1 img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.main3 p {
+    padding: 25px;
+    color: #2b3c53;
+    font-size: 51px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.main3-1 img,
+.main4-1 img {
+    width: 350px;
+    /* height: auto; */
+}
+
+.main4 {
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.main4-1 {
+    padding-top: 50px;
+}
+
+
+.main4-2 .main4-2-back p {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.main4-2-back {
+    background-color: #2b3c53;
+    border-radius: 30px;
+    width: fit-content;
+}
+
+.main4-3-next {
+    background-color: #2b3c53;
+    border-radius: 30px;
+    width: fit-content;
+}
+
+.main4-3-next {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.main4-2-dot1 {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #2b3c53;
+    margin: 20px;
+}
+
+.main4-2-dot2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #2b3c53;
+    margin: 20px;
+}
+
+.main5 {
+    background-image: url(image/Background-main5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.main5 img {
+    transform: translateY(-515px);
+}
+
+.vcx {
+    position: absolute;
+    top: 310px;
+    left: 245px;
+}
+
+.vcx p:nth-child(1) {
+    color: white;
+    font-size: 51px;
+    text-align: center;
+}
+
+.vcx p:nth-child(2) {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-extra5555 {
+    margin-top: 30px;
+}
+
+.main5-btn {
+    width: fit-content;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.main6 {
+    background-color: #2b3c53;
+    background-size: 100%;
+}
+
+.main6 .main6-ptag1 p b {
+    font-size: 51px;
+    color: white;
+    text-align: start;
+}
+
+.main6-ptag1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.main6-1 p:nth-child(1),
+.main6-1 p:nth-child(3),
+.main6-1 p:nth-child(5),
+.main6-1 p:nth-child(7) {
+    font-size: 20px;
+    color: white;
+}
+
+.main6-1 p:nth-child(13),
+.main6-1 p:nth-child(14) {
+    font-size: 30px;
+    color: white;
+}
+
+.main6-btn-1 p {
+    font-size: 25px;
+    color: white;
+}
+
+.main6-btn-1-c2 p {
+    font-size: 25px;
+    color: white;
+}
+
+.main6-btn-1,
+.main6-btn-1-c2 {
+    margin-top: 20px;
+}
+
+.main6 .main6-btn-1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #5e9a62;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.main6-btn-1-c2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #5e9a62;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.main7 {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.main7 .main7-1 p b {
+    font-size: 51px;
+    color: #2b3c53;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+
+
+.main7-contents {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.main7-1-2 p:nth-child(1) {
+    font-size: 25px;
+}
+
+.main7-1-2 .main7-banner-btn p:nth-child(2) {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.main7-banner-btn {
+    background-color: #2b3c53;
+    border-radius: 30px;
+    width: fit-content;
+    margin-top: 81px;
+}
+
+.main7-banner-btn p {
+    color: white;
+    padding: 5px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    /* height: 100vh; */
+    background-color: #2b3c53;
+    padding: 100px 0;
+}
+
+.footer p:nth-child(1) {
+    color: white;
+    font-size: 40px;
+    text-align: start;
+}
+
+.footer p:nth-child(2) {
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: start;
+}
+
+.footer-image {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-image img {
+    margin-right: 15px;
+}
+
+.footer p {
+    color: white;
+    text-align: start;
+}
+
+.footer p:first-child {
+    font-weight: bold;
+}
